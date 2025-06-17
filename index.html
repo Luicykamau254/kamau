@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fika best</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="nav-left">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+            </div>
+
+            <div class="nav-logo">fika best</div>
+            
+            <div class="nav-right">
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-bg-card">
+                <div class="hero-content">
+                    <div class="hero-bg-overlay"></div>
+                    <h1>Your Road Trip Starts Here</h1>
+                    <p>Discover scenic routes, hidden gems, and unforgettable road trip adventures!</p>
+                    <div class="bln-wrapper">
+                        <button type="button">Plan Your Trip</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+  <div class="about-card">
+    <div class="about-content">
+      <span class="about-label">HOW IT WORKS</span>
+      <h2 class="about-title">We Help You Prioritize Your Road Trip Adventure</h2>
+      <p class="about-desc">
+        Browse scenic routes, plan your journey, and start exploring with trusted tips and resources for every traveler.
+      </p>
+      <button class="about-btn">Start Planning</button>
+    </div>
+    <div class="about-illustration">
+      <img src="./assets/Vehicle Prep Illustration.jpeg" alt="Road Trip Planning Illustration" />
+    </div>
+  </div>
+</section>
+
+    <section id="services" class="services-section">
+  <div class="services-header">
+    <span class="services-label">SERVICES</span>
+    <h2 class="services-title">Your Road Trip Adventure Starts Here</h2>
+    <p class="services-desc">
+      Discover expert planning, scenic routes, and travel tips for unforgettable journeys on the open road.
+    </p>
+  </div>
+  <div class="services-cards-row">
+    <div class="service-card service-card-left">
+      <h3>Custom Route Planning</h3>
+      <p>Get personalized road trip itineraries with must-see stops, hidden gems, and scenic drives tailored to your interests.</p>
+      <div style="flex:1 1 auto;"></div>
+      <button class="service-btn" style="margin-top:auto;background:#007b7b;color:#fff;">Learn More</button>
+      <!-- Example SVG icon for road -->
+      <div style="position:absolute;bottom:24px;right:24px;opacity:0.15;">
+        <svg width="48" height="48" fill="none"><rect x="20" y="8" width="8" height="32" rx="4" fill="#ffb84d"/><rect x="23" y="16" width="2" height="4" rx="1" fill="#fff"/><rect x="23" y="24" width="2" height="4" rx="1" fill="#fff"/><rect x="23" y="32" width="2" height="4" rx="1" fill="#fff"/></svg>
+      </div>
+    </div>
+    <div class="service-card">
+      <h3>Travel Gear & Prep</h3>
+      <p>Access essential packing lists, vehicle checklists, and gear recommendations to keep your journey smooth and safe.</p>
+      <div style="flex:1 1 auto;"></div>
+      <button class="service-btn" style="margin-top:auto;background:#007b7b;color:#fff;">Learn More</button>
+      <!-- Example SVG icon for backpack -->
+      <div style="position:absolute;bottom:24px;right:24px;opacity:0.15;">
+        <svg width="48" height="48" fill="none"><rect x="12" y="16" width="24" height="24" rx="8" fill="#4db6ff"/><rect x="18" y="24" width="12" height="8" rx="4" fill="#fff"/></svg>
+      </div>
+    </div>
+    <div class="service-card-full" style="border-radius: 32px; box-shadow: 0 4px 24px rgba(0, 123, 255, 0.08); min-height: 320px;">
+      <div class="service-content" style="flex: 1 1 0; display: flex; flex-direction: column; justify-content: center; height: 100%;">
+        <h3 style="color: #007b7b; margin-bottom: 16px;">Road Trip Coaching</h3>
+        <p style="color: #18403c; margin-bottom: 16px;">
+          Personalized support to help you plan memorable journeys, discover scenic routes, and enjoy every mile on the open road.
+        </p>
+        <p style="color: #18403c; margin-bottom: 24px;">
+          Our travel experts guide you in building flexible itineraries, managing travel stress, and finding the best stops for adventure, relaxation, and fun. Get practical tips and encouragement for your unique road trip experience.
+        </p>
+        <button class="service-btn" style="background: #007b7b; color: #fff; align-self: flex-start;">Learn More</button>
+      </div>
+      <div class="service-illustration" style="flex: 1 1 0; display: flex; align-items: stretch; justify-content: center; height: 100%;">
+        <img src="./assets/2.jpg" alt="Road Trip Coaching Illustration" style="max-width: 220px; width: 100%; height: 100%; border-radius: 24px; background: #fffbe7; box-shadow: 0 2px 12px #b2f2bb; object-fit: cover;">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonials" class="testimonials-section">
+    <div class="testimonials-container">
+        <div class="testimonials-left">
+            <span class="testimonials-label">TESTIMONIALS</span>
+            <h2 class="testimonials-title">What Our Road Trippers<br>Are Saying</h2>
+            <p class="testimonials-desc">
+                Heartfelt experiences from users who have embarked on amazing journeys with our support.
+            </p>
+            <div class="testimonial-scroll-btns">
+                <button class="scroll-btn left testimonial-arrow" id="testimonial-prev">←</button>
+                <button class="scroll-btn right testimonial-arrow" id="testimonial-next">→</button>
+            </div>
+        </div>
+        <div class="testimonials-right" id="testimonials-carousel">
+            <div class="testimonial-card testimonial-card-peach">
+                <p>
+                    "The personalized road trip itinerary made our cross-country adventure absolutely perfect. Every stop was a delight!"
+                </p>
+                <span class="testimonial-author">— Sarah K., 31</span>
+            </div>
+            <div class="testimonial-card testimonial-card-dark">
+                <p>
+                    "Their guided scenic drives through the national parks were incredible! Discovered so much beauty. Highly recommend."
+                </p>
+                <span class="testimonial-author">— Mark T., 45</span>
+            </div>
+            <div class="testimonial-card testimonial-card-blue">
+                <p>
+                    "Thanks to their road trip tips, my solo journey through the desert was a breeze. Felt safe and prepared for every mile."
+                </p>
+                <span class="testimonial-author">— Jessica L., 26</span>
+            </div>
+            <div class="testimonial-card testimonial-card-green">
+                <p>
+                    "I love the road trip community feature. It's so inspiring to connect with fellow adventurers and share route discoveries."
+                </p>
+                <span class="testimonial-author">— David W., 39</span>
+            </div>
+            <div class="testimonial-card testimonial-card-yellow">
+                <p>
+                    "The route guides are fantastic! They helped me choose my next road trip and know exactly what to expect on the open road."
+                </p>
+                <span class="testimonial-author">— Nicholas M., 29</span>
+            </div>
+            <div class="testimonial-card testimonial-card-pink">
+                <p>
+                    "Their vehicle prep guides made getting ready for our long drive so easy and stress-free. Best road trip site ever!"
+                </p>
+                <span class="testimonial-author">— Ben S., 52</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="resources-section">
+    <div class="resources-header">
+        <span class="resources-label">EXPLORE & LEARN</span>
+        <h2 class="resources-title">Resources for<br>Your Next Road Trip</h2>
+        <p class="resources-desc">
+            Access comprehensive guides, expert tips, and inspiring stories to fuel your wanderlust.
+        </p>
+    </div>
+    <div class="resources-cards">
+        <div class="resource-card">
+            <h3>Route Guides</h3>
+            <p>Detailed guides to help you discover scenic routes and unique stops for your road adventures.</p>
+            <button class="resource-btn yellow">Discover</button>
+        </div>
+        <div class="resource-card">
+            <h3>Road Trip Planning & Tips</h3>
+            <p>Essential advice on budgeting, packing smart, vehicle checks, and maximizing your road trips.</p>
+            <button class="resource-btn teal">Read Tips</button>
+        </div>
+        <div class="resource-card">
+            <h3>Road Trip Stories & Blogs</h3>
+            <p>Inspiring narratives and stunning photography from fellow road trippers worldwide.</p>
+            <button class="resource-btn pink">Get Inspired</button>
+        </div>
+    </div>
+</section>
+<section class="partners-section">
+        <div class="partners-container">
+
+            <div class="carousel-box">
+                <div class="carousel-header">
+
+                    <h2 class="section-title">Our Partners</h2>
+                </div>
+                <div class="partners-carousel">
+                    <div class="partners-track">
+                        <!-- Original Partner Items -->
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                               <div class="partner-item"><img src="./assets/Expedia.png" alt="Expedia"></div>
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <div class="partner-item"><img src="./assets/Airbnb.png" alt="Airbnb"></div>
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <div class="partner-item"><img src="./assets/booking.png" alt="Booking.com"></div>
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <div class="partner-item"><img src="./assets/lonelyplanet-logo.png" alt="Lonely Planet"></div>
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                               <div class="partner-item"><img src="./assets/kayak-logo.png" alt="Kayak"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section class="community-section">
+    <div class="community-card">
+        <div class="community-content">
+            <span class="community-label">ROAD TRIP COMMUNITY</span>
+            <h2 class="community-title">Connect with Fellow Road Trippers</h2>
+            <p class="community-desc">
+                Share your routes, get road trip advice,<br>
+                and find inspiration in our vibrant,<br>
+                community of open-road enthusiasts.
+            </p>
+            <button class="community-btn">Join The Community</button>
+        </div>
+        <div class="community-illustration">
+           <img src="./assets/9.jpg" alt="group of Vehicle" class="community-image">
+        </div>
+    </div>
+</section>
+<section id="faq" class="faq-section">
+    <div class="faq-container">
+        <div class="faq-left">
+            <span style="color: #6a6a6a; font-size: 0.9rem; font-weight: 500; margin-bottom: 8px; display: block;">NEED HELP?</span>
+            <h2>Frequently Asked Questions</h2>
+            <p>Find answers to common questions about our services, therapy, and mental well-being.</p>
+            <img src="./assets/travel-faq.jpeg" alt="FAQ Illustration" class="faq-illustration">
+        </div>
+        <div class="faq-right">
+            <ul class="faq-list">
+                <li class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        How do I book a therapy session?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can book a therapy session directly through our website by navigating to the "Book Session" page, selecting your preferred therapist and time slot, and completing the booking process. You'll receive a confirmation email shortly after.</p>
+                    </div>
+                </li>
+                <li class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        Are online sessions available?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer online therapy sessions to provide convenience and flexibility. Our virtual sessions are conducted through a secure and confidential platform, ensuring your privacy and comfort.</p>
+                    </div>
+                </li>
+                <li class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        What's the difference between therapy and coaching?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Therapy typically focuses on healing past wounds and addressing mental health conditions, while coaching is often future-oriented, helping individuals achieve specific goals and maximize their potential. We offer both, tailored to your needs.</p>
+                    </div>
+                </li>
+                <li class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        Do I need a subscription to access services?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>While we offer subscription plans for ongoing support and cost savings, you can also access our services on a session-by-session basis without a subscription. We aim to provide flexible options for everyone.</p>
+                    </div>
+                </li>
+                <li class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        Can I switch therapists if I don't feel the right connection?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Your comfort and connection with your therapist are paramount. Yes, you can switch therapists at any time if you feel it's not the right fit. We'll assist you in finding a new therapist who better meets your needs.</p>
+                    </div>
+                </li>
+                <li class="faq-card">
+                    <button class="faq-question" aria-expanded="false">
+                        Is my information and session history kept confidential?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. We adhere to strict confidentiality guidelines and ethical standards to protect your privacy. All your information and session history are kept confidential, in accordance with relevant privacy laws.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="contact-header">
+        <span class="contact-subtitle">GET IN TOUCH</span>
+        <h2>We're Here to Support You</h2>
+        <p>
+            Whether you have questions, need help getting started, or want to learn more — reach out anytime.
+        </p>
+    </div>
+    <div class="contact-main-card">
+        <div class="contact-details">
+            <h3>Contact Details:</h3>
+            <p><strong>Email:</strong> support@solus.com</p>
+            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+            <p><strong>Address:</strong> 123 Wellness Way, Calm City, CA 90210</p>
+            <div class="contact-socials">
+                <a href="#"><img src="assets/link icon.png" alt="LinkedIn"></a>
+                <a href="#"><img src="assets/fb icon.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/whatsup.jpeg" alt="WhatsApp"></a>
+                <a href="#"><img src="assets/ig.jpeg" alt="Instagram"></a>
+            </div>
+            <p class="contact-response">We typically respond within 12 hours.</p>
+        </div>
+        <div class="contact-form-area">
+            <h3>Send Us a Message</h3>
+            <form id="sendMessageForm" action="#" method="post">
+                <label for="msg-email">Email</label>
+                <input type="email" id="msg-email" name="msg-email" placeholder="Email" required>
+                <label for="msg-message">Message</label>
+                <textarea id="msg-message" name="msg-message" rows="4" placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+                <div id="send-message-response"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="combined-footer-section">
+    <div class="footer-content-wrapper">
+        <div class="footer-left-card footer-card-inner">
+            <h2>Fika Best</h2>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#home">Routes</a></li>
+                    <li><a href="#services">Tours</a></li>
+                    <li><a href="#">Trip Planning</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="terms-privacy">
+                <a href="#">Terms Of Use</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <p class="copyright">© 2025 Fika Best. All Rights Reserved.</p>
+        </div>
+        <div class="footer-right-card footer-card-inner">
+            <div class="footer-cta-graphic">
+                <svg viewBox="0 0 24 24" fill="none" width="48" height="48">
+                    <circle cx="12" cy="7" r="4" class="head" fill="white"/>
+                    <path d="M17 14H7C5.34315 14 4 15.3431 4 17V20H20V17C20 15.3431 18.6569 14 17 14Z" class="body" fill="white"/>
+                </svg>
+                <!-- Add a few decorative flowers or shapes here if you want, as in the image -->
+            </div>
+            <h2>Plan Your Next Road Trip,<br>With Us.</h2>
+            <button type="button" class="footer-cta-btn">Start Your Journey</button>
+        </div>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
